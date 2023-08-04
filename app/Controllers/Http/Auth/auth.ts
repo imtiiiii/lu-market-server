@@ -12,3 +12,5 @@ Route.group(() => {
   Route.post('/verifyEmail', 'Auth/AuthController.verifyEmail')
 
 }).prefix('auth')
+
+//3333/auth/register
