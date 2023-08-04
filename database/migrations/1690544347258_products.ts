@@ -13,6 +13,7 @@ export default class Products extends BaseSchema {
       table.integer("price").notNullable()
       table.integer("stock").nullable()
       table.string('category', 100).notNullable()
+      table.string('edition',10).nullable()
 
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
